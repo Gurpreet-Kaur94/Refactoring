@@ -9,7 +9,6 @@ public class Rental {
         this.movie = movie;
         this.daysRented = daysRented;
     }
-
     public Movie getMovie() {
         return movie;
     }
@@ -17,4 +16,5 @@ public class Rental {
     public int getDaysRented() {
         return daysRented;
     }
+
 }
